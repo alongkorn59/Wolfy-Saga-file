@@ -22,10 +22,12 @@ public class GUIManager : MonoBehaviour
 	void OnGUI()
 	{
 		GUI.skin = guiSkin;
-		GUILayout.Space(5f);
-		
+		GUILayout.Space(30f);
+		GUI.color = Color.blue;
 		if(health)
-			GUILayout.Label ("Health: " + health.currentHealth);
+			GUILayout.Label ("Heart: " + health.currentHealth);
+
+
 		if(coinsInLevel > 0)
 			GUILayout.Label ("Cubes: " + coinsCollected + " / " + coinsInLevel);
 	}
