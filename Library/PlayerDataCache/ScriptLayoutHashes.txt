@@ -1,7 +1,8 @@
 WindowsStandalone
 PlayerPath?
-C:/Users/Moritora/Desktop/Wolfy Saga/Wolfy Saga.exe
+C:/Users/Moritora/Desktop/Wolfy Saga/Final/Wolfy Saga.exe
 SceneListBegin?
+Assets/Scene0.unity
 Assets/scene1.unity
 Assets/Scene2.unity
 Assets/Scene3.unity
